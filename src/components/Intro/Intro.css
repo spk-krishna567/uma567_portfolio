@@ -1,0 +1,76 @@
+.intro{
+    height: 100vh;
+    width: 75vw;
+    padding-top: 100px;
+    display: flex;
+    padding-left: 75px;
+}
+ 
+ .intro-combo{
+    margin-top: 80px;
+    
+ }
+.intro-Namebefore{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: var(--fw-semi-bold);
+    font-size: 32px;
+    color: white; 
+}
+.intro-Namemain{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: var(--fw-bold);
+    font-size:48px;
+    line-height: 61px;
+
+    background: linear-gradient(90deg, #57F984 -2.55%, #40EDB9 18.6%, #37E7FF 40.5%, #35CFFF 70.41%, #5F65FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+.intro-Description{
+    width: 600px;
+    height: 125px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height:26px;
+
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+}
+.intro-Profilename{
+    font-weight: var(--fw-semi-bold);
+    background: linear-gradient(90deg, #57F984 -2.55%, #40EDB9 18.6%, #37E7FF 40.5%, #35CFFF 70.41%, #5F65FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.button-Hire{
+    padding: 8px 16px;
+    width: 98px;
+    height: 42px;
+    border-radius: 4px;
+    background: #47f17a;
+    border: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight:var(--fw-semi-bold);
+    font-size: 16px;
+    cursor: pointer;
+    
+
+}
+.profile-Pic{
+    width: 256px;
+    height:256px;
+    border-radius: 20%;
+    margin-top: 80px;
+    margin-left: 16px;
+}

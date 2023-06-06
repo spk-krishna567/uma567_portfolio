@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import "./App.css";
+
+import Intro from "./components/Intro/Intro";
+import Navbar from "./components/Navbar/Navbar";
+import Resume from "./components/Resume/Resume";
+const App = () => {
+  const activating = () => {
+    var currentUrl = window.location.href;
+    var navLinks = document.querySelectorAll(".nav-Items>ul>li>a");
+    for (var i = 0; i < navLinks.length; i++) {
+      if (navLinks[i].href === currentUrl) {
+        navLinks[i].classList.add("active");
+      }
+    }
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar activate={activating} />
+      <div className="Main">
+        <Intro />
+        <Resume />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
