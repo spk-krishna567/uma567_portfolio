@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/uma567_portfolio/static/css/main.9960035f.css",
+    "main.js": "/uma567_portfolio/static/js/main.80226394.js",
+    "static/media/profile_image.png": "/uma567_portfolio/static/media/profile_image.40b9c8397ef02b426381.png",
+    "index.html": "/uma567_portfolio/index.html",
+    "main.9960035f.css.map": "/uma567_portfolio/static/css/main.9960035f.css.map",
+    "main.80226394.js.map": "/uma567_portfolio/static/js/main.80226394.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9960035f.css",
+    "static/js/main.80226394.js"
+  ]
+}
