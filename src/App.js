@@ -5,6 +5,7 @@ import "./App.css";
 import Logo from "./components/logo/Logo";
 import Intro from "./components/Intro/Intro";
 import Navbar from "./components/Navbar/Navbar";
+import Skills from "./components/Skills/Skills";
 import Resume from "./components/Resume/Resume";
 const App = () => {
   const activating = () => {
@@ -18,10 +19,11 @@ const App = () => {
   };
   return (
     <div className="App">
+      <Logo />
       <Navbar activate={activating} />
       <div className="Main">
-        <Logo />
         <Intro />
+        <Skills />
         <Resume />
       </div>
     </div>

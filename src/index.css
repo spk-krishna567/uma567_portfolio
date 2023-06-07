@@ -3,12 +3,11 @@
 :root{
     --background-color:rgba(35, 35, 35, 1);
     --background-color-card:
-
-    --ff-base:Poppins;
-    
+    --ff-base:'Poppins';
     --fw-regular:300;
     --fw-semi-bold:400;
     --fw-bold:700;
+    --ff-base:'Poppins'
 
     
 }

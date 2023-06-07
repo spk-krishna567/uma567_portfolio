@@ -1,6 +1,14 @@
+.logo{
+    width:100vw;
+    height: auto;
+    position: fixed;
+    background-color: var(--background-color);
+    padding-left: 20vw;
+    z-index: 5;
+}
 .profile-Logo{
-    width: 8rem;
-    height: fit-content;
+    width: 10rem;
+    height:6rem;
     aspect-ratio: 1;
     display: flex;
     align-items: flex-start;

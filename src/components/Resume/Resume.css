@@ -1,4 +1,7 @@
 .Resume{
-    height: 100vh;
-    width:75vw;
+    height:100vh;
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:5rem;
 }
