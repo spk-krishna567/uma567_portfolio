@@ -8,3 +8,8 @@
     margin-left: 20vw;
     scroll-behavior: smooth;
 }
+@media screen  and (max-width:420px){
+    .Main{
+        margin: 0vw;
+    }
+}

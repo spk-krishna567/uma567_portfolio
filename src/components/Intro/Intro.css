@@ -77,3 +77,22 @@
     margin-top: 80px;
     margin-left: 16px;
 }
+
+
+@media screen  and (max-width:420px){
+    .intro{
+        width: 95vw;
+        padding-left:0rem;
+        justify-content: center;
+    }
+    .intro-combo{
+        padding-inline:2rem;
+    }
+    .intro-Description{
+        width:auto;
+    height:auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-block: 2rem;
+    }
+}
