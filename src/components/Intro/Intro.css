@@ -1,13 +1,15 @@
 .intro{
     height: 100vh;
-    width: 75vw;
-    padding-top: 100px;
+    width: 70vw;
     display: flex;
-    padding-left: 75px;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-left:5rem;
 }
+
  
  .intro-combo{
-    margin-top: 80px;
+    margin-top:5rem;
     
  }
 .intro-Namebefore{

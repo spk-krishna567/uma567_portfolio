@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Intro.css";
 import profile_pic from "../../images/profile_image.png";
+import profile_logo from "../../images/portlogo.png";
 
 const Intro = () => {
   return (

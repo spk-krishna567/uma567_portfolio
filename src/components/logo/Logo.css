@@ -1,0 +1,9 @@
+.profile-Logo{
+    width: 8rem;
+    height: fit-content;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0px;
+}

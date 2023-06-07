@@ -2,6 +2,7 @@ import React from "react";
 
 import "./App.css";
 
+import Logo from "./components/logo/Logo";
 import Intro from "./components/Intro/Intro";
 import Navbar from "./components/Navbar/Navbar";
 import Resume from "./components/Resume/Resume";
@@ -19,6 +20,7 @@ const App = () => {
     <div className="App">
       <Navbar activate={activating} />
       <div className="Main">
+        <Logo />
         <Intro />
         <Resume />
       </div>
