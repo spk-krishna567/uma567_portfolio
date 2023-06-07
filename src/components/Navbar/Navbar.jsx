@@ -14,14 +14,13 @@ const Navbar = (props) => {
             <a href="#skillspage">Skills</a>
           </li>
           <li>
-            <a href="#">Contacts</a>
+            <a href="#projectspage">Projects</a>
           </li>
           <li>
-            <a href="#resume">Resume</a>
+            <a href="#resumepage">Resume</a>
           </li>
-
           <li>
-            <a href="#">Projects</a>
+            <a href="#contactspage">Contacts</a>
           </li>
         </ul>
       </div>
