@@ -1,7 +1,52 @@
-.Resume{
+.resume{
     height:100vh;
     width: 70vw;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding-left:5rem;
+    padding-top: 7rem;
+}
+
+.resume-heading{
+    color: white;
+    text-align:start;
+    font-family: var(--ff-base);
+    font-size: 2rem;
+    font-weight: var(--fw-bold);
+    padding-bottom: 2rem;
+}
+.resume-subheading{
+    color: white;
+    text-align:center;
+    font-family: var(--ff-base);
+    font-size: 1rem;
+    font-weight:200;
+    padding-bottom: 2rem;
+}
+.button-resume{
+    display: flex;
+    justify-content: center;
+}
+.download-resume{
+    padding: 8px 16px;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 4px;
+    background:var(--background-color-card);
+    border: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight:var(--fw-semi-bold);
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.download-resume>span{
+    background: linear-gradient(90deg, #00FF57 0%, #FFF500 104.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
 }
