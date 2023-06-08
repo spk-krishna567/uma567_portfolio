@@ -6,6 +6,7 @@ import Logo from "./components/logo/Logo";
 import Intro from "./components/Intro/Intro";
 import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/Resume";
 const App = () => {
   const activating = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <div className="Main">
         <Intro />
         <Skills />
+        <Projects />
         <Resume />
       </div>
     </div>

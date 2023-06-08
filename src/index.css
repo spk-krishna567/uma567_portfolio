@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root{
     --background-color:rgba(35, 35, 35, 1);
-    --background-color-card:
+    --background-color-card:rgba(217, 217, 217, 0.09);
     --ff-base:'Poppins';
     --fw-regular:300;
     --fw-semi-bold:400;
     --fw-bold:700;
-    --ff-base:'Poppins'
+    --ff-base:'Poppins';
+
 
     
 }

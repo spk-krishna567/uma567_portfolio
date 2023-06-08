@@ -1,0 +1,93 @@
+.projects{
+    height:auto;
+    width: 67vw;
+    padding-left:5rem;
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+.html-entity{
+    background: linear-gradient(90deg, #FAF233 0%, #7BFF2B 22.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.projects-heading{
+    color: white;
+    text-align:start;
+    font-family: var(--ff-base);
+    font-size: 2rem;
+    font-weight: var(--fw-bold);
+    padding-bottom: 2rem;
+}
+.projects-subheading{
+display: flex;
+flex-wrap: wrap;
+
+    color: white;
+    text-align:start;
+    font-family: var(--ff-base);
+    font-size: 1rem;
+    font-weight:200;
+    padding-bottom: 2rem;
+
+}
+
+.projects-group{
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    overflow-x:scroll;
+    padding-bottom: 2rem;
+
+}
+.specific-project{
+    width: 28rem;
+    border-radius:0.25rem;
+    padding: 2rem;
+    background-color:var(--background-color-card);
+    margin: 0rem;
+}
+.domain-name{
+    color: rgba(128, 255, 136, 0.67);
+    letter-spacing: 0.05rem;
+    font-family: var(--ff-base);
+    font-weight: var(--fw-bold);
+    font-size: 1rem;
+}
+.project-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.project-name{
+    line-height: 1.2;
+    color: white;
+    font-family: var(--ff-base);
+    font-weight: var(--fw-bold);
+    font-size: 1.5rem;
+}
+.company{
+    color: rgba(255, 255, 255, 0.324);
+    font-family: var(--ff-base);
+    font-weight: var(--fw-bold);
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.project-description{
+    color:white;
+    font-family: var(--ff-base);
+    font-weight:300;
+    font-size: 0.8rem; 
+}
+@media screen  and (max-width:420px){
+    .projects{
+        width: 85vw;
+        padding-left:2rem;
+
+    }
+    .specific-project{
+        width:16rem
+    }
+}

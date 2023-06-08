@@ -6,6 +6,7 @@ import profile_pic from "../../images/profile_image.png";
 const Intro = () => {
   return (
     <div className="intro" id="homepage">
+      <div className="elipse1"></div>
       <div className="intro-combo">
         <div className="intro-Sentence">
           <span className="intro-Namebefore">Hi👋 </span>
@@ -23,7 +24,9 @@ const Intro = () => {
           a developer knows he has achieved perfection not when there is nothing
           left to add, but when there is nothing left to take away
         </div>
-        <button className="button-Hire">Hire Me</button>
+        <a href="https://www.linkedin.com/in/tarugu-uma-maheswar-reddy-b965a2244">
+          <button className="button-Hire">Hire Me</button>
+        </a>
       </div>
       <img src={profile_pic} alt="profilepic" className="profile-Pic" />
     </div>

@@ -7,7 +7,18 @@
     padding-top: 7rem;
     
 }
+.elipse1{
+    z-index: 0;
+    position: absolute;
+    width: 5vw;
+height: 322.2px;
+left:35vw;
+top: 40vh;
 
+background: linear-gradient(92.72deg, #01FFFF 24.05%, #2BB0FB 55.98%, #5C6DFF 68.93%);
+filter: blur(150px);
+transform: rotate(123.28deg);
+}
  
  .intro-combo{
     margin-top:5rem;

@@ -1,17 +1,22 @@
 .skills{
-    height:100vh;
+    height:auto;
     width: 70vw;
     display: flex;
     flex-wrap: wrap;
     padding-left:5rem;
-    display: flex;
     flex-direction: column;
     padding-top: 7rem;
 
 }
+.html-entity{
+    background: linear-gradient(90deg, #FAF233 0%, #7BFF2B 22.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 .skills-heading{
     color: white;
-    text-align: center;
+    text-align:start;
     font-family: var(--ff-base);
     font-size: 2rem;
     font-weight: var(--fw-bold);
@@ -19,7 +24,7 @@
 }
 .skills-subheading{
     color: white;
-    text-align: center;
+    text-align:start;
     font-family: var(--ff-base);
     font-size: 1rem;
     font-weight:200;
@@ -33,7 +38,19 @@
     justify-content: center;
     gap:5rem;
 }
-.skills-icons>img{
+.skills-icons>div>{
+    display: flex;
+    flex-direction: column;
+}
+.skill-text{
+    color: white;
+    text-align: center;
+    font-family: var(--ff-base);
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.skills-icons>div>img{
     width:5rem;
     opacity: 0.7;
     height: fit-content;

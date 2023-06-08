@@ -13,18 +13,41 @@ import figma from "../../images/figma.png";
 const Skills = () => {
   return (
     <div className="skills" id="skillspage">
-      <div className="skills-heading">Skills </div>
+      <div className="skills-heading">
+        <span className="html-entity"> &lt;/&gt;</span> Skills{" "}
+      </div>
       <div className="skills-subheading">
         I have a vast experience in the following web technologies:
       </div>
       <div className="skills-icons">
-        <img src={html} alt="html" />
-        <img src={css} alt="css" />
-        <img src={javascript} alt="js" />
-        <img src={reactjs} alt="reactjs" />
-        <img src={nodejs} alt="nodejs" />
-        <img src={php} alt="php" />
-        <img src={figma} alt="figma" />
+        <div>
+          <img src={html} alt="html" />
+          <div className="skill-text">Html</div>
+        </div>
+        <div>
+          <img src={css} alt="css" />
+          <div className="skill-text">Css</div>
+        </div>
+        <div>
+          <img src={javascript} alt="js" />
+          <div className="skill-text">javascript</div>
+        </div>
+        <div>
+          <img src={reactjs} alt="reactjs" />
+          <div className="skill-text">React js</div>
+        </div>
+        <div>
+          <img src={nodejs} alt="nodejs" />
+          <div className="skill-text">Node.js</div>
+        </div>
+        <div>
+          <img src={php} alt="php" />
+          <div className="skill-text">Php</div>
+        </div>
+        <div>
+          <img src={figma} alt="figma" />
+          <div className="skill-text">Figma</div>
+        </div>
       </div>
     </div>
   );
