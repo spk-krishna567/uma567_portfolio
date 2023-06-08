@@ -21,7 +21,7 @@ const Navbar = (props) => {
             <a href="#resumepage">Resume</a>
           </li>
           <li>
-            <a href="#contactspage">Contacts</a>
+            <a href="#contactpage">Contacts</a>
           </li>
         </ul>
       </div>

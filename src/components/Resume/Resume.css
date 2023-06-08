@@ -1,5 +1,5 @@
 .resume{
-    height:100vh;
+    height:auto;
     width: 70vw;
     display: flex;
     flex-direction: column;
@@ -48,5 +48,13 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 
+}
 
+@media screen  and (max-width:420px){
+    .resume{
+        padding-left: 2rem;
+    }  
+    .button-resume{
+        padding-left: 1rem;
+    }
 }

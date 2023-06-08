@@ -41,6 +41,19 @@ flex-wrap: wrap;
     padding-bottom: 2rem;
 
 }
+.projects-group::-webkit-scrollbar{
+height: 0.75rem;
+}
+.projects-group::-webkit-scrollbar-track{
+    background-color: var(--background-color-card);
+    border-radius: 50vw;
+}
+.projects-group::-webkit-scrollbar-thumb{
+    height: 0.75rem;
+    background:  linear-gradient(90deg, rgba(250, 242, 51, 1) 0%, rgba(123, 255, 43, 1) 100%);
+
+    border-radius: 50vw;
+}
 .specific-project{
     width: 28rem;
     border-radius:0.25rem;

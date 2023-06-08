@@ -1,0 +1,77 @@
+.contact{
+    height:100vh;
+    width: 70vw;
+    display: flex;
+    padding-left:5rem;
+    flex-direction: column;
+    padding-top: 7rem;
+
+}
+.contact-heading{
+    color: white;
+    text-align:start;
+    font-family: var(--ff-base);
+    font-size: 2rem;
+    font-weight: var(--fw-bold);
+    padding-bottom: 2rem;
+}
+.html-entity{
+    background: linear-gradient(90deg, #FAF233 0%, #7BFF2B 22.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form>.email{
+    background-color: var(--background-color-card);
+    width: 40rem;
+    height: 3rem;
+    border: 0px;
+    border-radius:0.25rem;
+    font-family: var(--ff-base);
+    font-size: 0.9rem;
+    font-weight: var(--fw-regular);
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+.contact-form>.message{
+    text-align: start;
+    background-color: var(--background-color-card);
+    width: 40rem;
+    height: 20rem;
+    border: 0px;
+    border-radius:0.25rem;
+    font-family: var(--ff-base);
+    font-size: 0.9rem;
+    font-weight: var(--fw-regular);
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+.send-email{
+    padding: 8px 16px;
+    width:10rem;
+    height: 2.5rem;
+    border-radius: 4px;
+    background: #47f17a;
+    border: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight:var(--fw-semi-bold);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media screen  and (max-width:420px){
+    .contact{
+        padding-inline:2rem;
+        width: 80vw;
+    }
+    .email,.message{
+        width: 15rem!important;
+    }
+}

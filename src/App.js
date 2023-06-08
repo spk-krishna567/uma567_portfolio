@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/Resume";
+import Contact from "./components/Contact/Contact";
 const App = () => {
   const activating = () => {
     var currentUrl = window.location.href;
@@ -27,6 +28,7 @@ const App = () => {
         <Skills />
         <Projects />
         <Resume />
+        <Contact />
       </div>
     </div>
   );
