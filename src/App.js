@@ -9,6 +9,7 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/Resume";
 import Contact from "./components/Contact/Contact";
+import Socialmedia from "./components/Socialmedia/Socialmedia";
 const App = () => {
   const activating = () => {
     var currentUrl = window.location.href;
@@ -29,6 +30,7 @@ const App = () => {
         <Projects />
         <Resume />
         <Contact />
+        <Socialmedia />
       </div>
     </div>
   );

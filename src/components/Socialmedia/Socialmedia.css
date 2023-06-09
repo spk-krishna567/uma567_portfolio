@@ -1,0 +1,83 @@
+.socialmedia {
+    height:auto;
+    width: 70vw;
+    display: flex;
+    padding-left:5rem;
+    flex-direction: column;
+    padding-top: 7rem;
+}
+.socialmedia-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+.socialmedia-heading{
+    color: white;
+    text-align:start;
+    font-family: var(--ff-base);
+    font-size: 2rem;
+    font-weight: var(--fw-bold);
+    padding-bottom: 2rem;
+}
+.html-entity{
+    background: linear-gradient(90deg, #FAF233 0%, #7BFF2B 22.63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.social-subheading{
+    color:white;
+    font-family: var(--ff-base);
+    font-weight:300;
+    font-size: 0.8rem; 
+}
+.socialmedia-links-icons{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+gap: 1rem;
+}
+.media-icons{
+    height: 2rem;
+    width: 2rem;
+}
+.media-icons:first-child{
+    color: #7cff2b;
+}
+.media-icons:nth-child(2){
+    color: rgb(0, 187, 255);
+}
+.media-icons:nth-child(3){
+    color: aqua;
+}
+.media-icons:nth-child(4){
+    color: rgb(255, 89, 0);
+}
+.media-icons-git{
+    height: 2rem;
+    width: 2rem;
+    color: rgb(255, 255, 255);
+}
+.git-link{
+    background: linear-gradient(90deg, #57F984 -2.55%, #40EDB9 18.6%, #37E7FF 40.5%, #35CFFF 70.41%, #5F65FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: none;
+}
+@media screen  and (max-width:420px){
+    .socialmedia{
+        padding-inline:2rem;
+    }
+    .socialmedia-box{
+        justify-content: center;
+        margin-left: 2rem;
+    }
+    .socialmedia-links{
+        margin-bottom: 5rem;
+    }
+    .github-link{
+        margin-bottom: 3rem;
+    }
+}

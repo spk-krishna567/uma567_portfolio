@@ -23,6 +23,9 @@ const Navbar = (props) => {
           <li>
             <a href="#contactpage">Contacts</a>
           </li>
+          <li>
+            <a href="#socialmediapage">Social media</a>
+          </li>
         </ul>
       </div>
     </div>

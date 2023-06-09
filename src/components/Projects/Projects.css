@@ -36,6 +36,7 @@ flex-wrap: wrap;
 .projects-group{
     display: grid;
     gap: 1rem;
+    justify-content: start;
     grid-auto-flow: column;
     overflow-x:scroll;
     padding-bottom: 2rem;
