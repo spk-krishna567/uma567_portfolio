@@ -5,13 +5,33 @@
     background-color: var(--background-color);
     padding-left: 20vw;
     z-index: 5;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
 }
 .profile-Logo{
     width: 10rem;
     height:6rem;
     aspect-ratio: 1;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     margin: 0px;
+}
+.bars-nav{
+    width:1.5rem;
+    display: none;
+    height:max-content;
+    color: aliceblue;
+}
+
+@media screen and (max-width:420px){
+    .logo{padding-left: 0vw;
+    justify-content: space-between;}
+    .bars-nav{
+        display: block;
+        margin-left: 2rem;
+    }
+    .profile-Logo{
+        margin-right: 2rem;
+    }
 }

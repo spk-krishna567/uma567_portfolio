@@ -1,10 +1,17 @@
 import React from "react";
 
 import "./Navbar.css";
+const collapse = () => {
+  const w = window.innerWidth;
+  if (w <= 420) {
+    const name = document.querySelector(".navbar");
+    name.style.cssText += "display:none";
+  }
+};
 
 const Navbar = (props) => {
   return (
-    <div className="navbar">
+    <div className="navbar" onClick={collapse}>
       <div className="elipse2"></div>
       <div className="nav-Items" onLoad={props.activate}>
         <ul>

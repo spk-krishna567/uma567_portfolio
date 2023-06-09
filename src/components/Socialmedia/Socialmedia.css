@@ -5,6 +5,7 @@
     padding-left:5rem;
     flex-direction: column;
     padding-top: 7rem;
+    padding-bottom: 5rem;
 }
 .socialmedia-box{
     display: flex;
@@ -69,6 +70,7 @@ gap: 1rem;
 @media screen  and (max-width:420px){
     .socialmedia{
         padding-inline:2rem;
+        padding-bottom: 0rem;
     }
     .socialmedia-box{
         justify-content: center;

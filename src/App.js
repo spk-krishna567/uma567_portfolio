@@ -20,11 +20,18 @@ const App = () => {
       }
     }
   };
+  const collapse = () => {
+    const w = window.innerWidth;
+    if (w <= 420) {
+      const name = document.querySelector(".navbar");
+      name.style.cssText += "display:none";
+    }
+  };
   return (
     <div className="App">
       <Logo />
       <Navbar activate={activating} />
-      <div className="Main">
+      <div className="Main" onClick={collapse}>
         <Intro />
         <Skills />
         <Projects />
