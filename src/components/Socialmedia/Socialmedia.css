@@ -67,7 +67,7 @@ gap: 1rem;
     background-clip: text;
     text-decoration: none;
 }
-@media screen  and (max-width:420px){
+@media screen  and (max-width:970px){
     .socialmedia{
         padding-inline:2rem;
         padding-bottom: 0rem;

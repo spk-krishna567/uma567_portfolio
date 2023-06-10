@@ -8,7 +8,7 @@
     margin-left: 20vw;
     scroll-behavior: smooth;
 }
-@media screen  and (max-width:420px){
+@media screen  and (max-width:970px){
     .Main{
         margin: 0vw;
     }

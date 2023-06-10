@@ -24,7 +24,7 @@
     color: aliceblue;
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:970px){
     .logo{padding-left: 0vw;
     justify-content: space-between;}
     .bars-nav{

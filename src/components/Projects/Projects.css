@@ -95,7 +95,7 @@ height: 0.75rem;
     font-weight:300;
     font-size: 0.8rem; 
 }
-@media screen  and (max-width:420px){
+@media screen  and (max-width:970px){
     .projects{
         width: 85vw;
         padding-left:2rem;

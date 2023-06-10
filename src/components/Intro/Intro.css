@@ -90,7 +90,7 @@ transform: rotate(123.28deg);
 }
 
 
-@media screen  and (max-width:420px){
+@media screen  and (max-width:970px){
     .intro{
         width: 95vw;
         padding-left:0rem;

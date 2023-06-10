@@ -28,7 +28,7 @@
 }
 .contact-form>.email{
     background-color: var(--background-color-card);
-    width: 40rem;
+    width:clamp(15rem,40vw,40rem);
     height: 3rem;
     border: 0px;
     border-radius:0.25rem;
@@ -41,7 +41,7 @@
 .contact-form>.message{
     text-align: start;
     background-color: var(--background-color-card);
-    width: 40rem;
+    width:clamp(15rem,40vw,40rem);
     height: 20rem;
     border: 0px;
     border-radius:0.25rem;
@@ -66,12 +66,9 @@
     cursor: pointer;
 }
 
-@media screen  and (max-width:420px){
+@media screen  and (max-width:970px){
     .contact{
         padding-left:2rem;
         width: 80vw;
-    }
-    .email,.message{
-        width: 15rem!important;
     }
 }
